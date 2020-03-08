@@ -1,0 +1,71 @@
+.mainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 55px 0 65px 0;
+  display: flex;
+  justify-content: center;
+}
+.mainer_row {
+  width: 320px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.mainer_row .image {
+  display: block;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #2a69a6;
+  border: 2px solid #2a69a6;
+  align-self: center;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+.mainer_row .caption {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 17px;
+  font-weight: bold;
+}
+.mainer_row .description {
+  font-size: 14px;
+  text-align: center;
+  margin: 0 15%;
+  color: #9d9d9d;
+}
+.mainer_row .mobile,
+.mainer_row .gear,
+.mainer_row .speed {
+  width: 30px;
+  height: 30px;
+  margin: 15px;
+}
+.mainer_row .image:hover {
+  border: 2px solid #2a69a6;
+  background-color: white;
+}
+
+.mainer_row .mobile {
+  background-image: url(../img/icons.png);
+  background-position: 0 0px;
+}
+.mainer_row .gear {
+  background-image: url(../img/icons.png);
+  background-position: 60px 0px;
+}
+.mainer_row .speed {
+  background-image: url(../img/icons.png);
+  background-position: 30px 0px;
+}
+.mainer_row .image:hover .mobile {
+  background-position: 0 30px;
+}
+.mainer_row .image:hover .gear {
+  background-position: 60px 30px;
+}
+.mainer_row .image:hover .speed {
+  background-position: 30px 30px;
+}
